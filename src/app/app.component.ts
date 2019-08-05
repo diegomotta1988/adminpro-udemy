@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'adminpro';
 
   // Sólo con inyectarlo va a disparar el constructor de SettingsService
-  constructor(public _settingsService: SettingsService) {
+  constructor(public settingsService: SettingsService) {
 
   }
 }
